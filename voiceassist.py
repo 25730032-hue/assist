@@ -65,7 +65,7 @@ def TTS(response):
 def main():
     # 기본 설정
     st.set_page_config(
-        page_title="샘 음성 비서 프로그램",
+        page_title="음성 비서 프로그램",
         layout="wide")
 
     # session state 초기화
@@ -82,11 +82,11 @@ def main():
         st.session_state["check_reset"] = False
 
     # 제목 
-    st.header("음성 비서 프로그램")
+    st.header("샘 음성 비서 프로그램")
     st.markdown("---")
 
     # 기본 설명
-    with st.expander("음성비서 프로그램에 관하여", expanded=True):
+    with st.expander("샘 음성비서 프로그램에 관하여", expanded=True):
         st.write(
         """     
         - 음성비서 프로그램의 UI는 스트림릿을 활용했습니다.
